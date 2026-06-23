@@ -12,15 +12,16 @@ export default function Page() {
 			<h1 className="mb-6 text-2xl font-bold">게시글 목록</h1>
 
 			<div className="space-y-3">
-				{posts.map((post) => (
-					<Link
-						key={post.id}
-						href={`/posts/${post.id}`}
-						className="block rounded border p-3 hover:bg-gray-50"
-					>
-						{post.title}
-					</Link>
-				))}
+				<postList />
+				{/* {posts.map((post) => ( */}
+				// 	<Link
+				// 		key={post.id}
+				// 		href={`/posts/${post.id}`}
+				// 		className="block rounded border p-3 hover:bg-gray-50"
+				// 	>
+				// 		{post.title}
+				// 	</Link>
+				// ))}
 			</div>
 		</div>
 	);
