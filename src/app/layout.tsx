@@ -31,6 +31,11 @@ export default function RootLayout({
 						<h1 className="text-[18px] font-bold">Next Practice</h1>
 
 						<nav className="flex gap-5 text-[13px] font-medium text-gray-600">
+							{/* <a href="/">Home</a>
+							<a href="/posts">Ports</a>
+							<a href="/login">Login</a>
+							<a href="/mypage">MY page</a> */}
+
 							<Link href="/">Home</Link>
 							<Link href="/posts">Posts</Link>
 							<Link href="/login">Login</Link>
