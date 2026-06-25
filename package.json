@@ -19,6 +19,7 @@
 	"devDependencies": {
 		"@tailwindcss/postcss": "^4",
 		"@tanstack/react-query-devtools": "^5.101.0",
+		"@tosspayments/tosspayments-sdk": "^2.7.1",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
