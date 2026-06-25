@@ -1,5 +1,6 @@
 import { getNow } from '@/app/lib/time';
 
+// 정적파일 선언		
 export const dynamic = 'force-dynamic';
 
 export default function SsrPage() {
